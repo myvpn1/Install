@@ -1,10 +1,14 @@
 #!/bin/bash
 clear
-MYIP=$(wget -qO- ipinfo.io/ip);
-clear 
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+###########
+LURUS="\033[1;32m=\033[1;33m=\033[1;31m=\033[1;31m$NC"
+LURUS2="\033[1;32m=\033[1;33m=\033[1;31m=\033[1;31m$NC"
+KANAN="\033[1;32m<\033[1;33m<\033[1;31m<\033[1;31m$NC"
+KIRI="\033[1;32m>\033[1;33m>\033[1;31m>\033[1;31m$NC"
+########
+echo -e " ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
 echo -e "         • MENU INSTALLER SCRIPTS AUTO INSTALL •         "
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e " ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
 echo -e "" 
 echo -e " ${KIRI} Status Bot ( ${status_bot} )"
 echo -e ""
@@ -12,7 +16,7 @@ echo -e " [\e[36m•1\e[0m] Install Script Stunell"
 echo -e " [\e[36m•2\e[0m] Install Scripts Happyproxy"
 echo -e "" 
 echo -e "" 
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e " ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
 echo -e ""
 read -p " Select menu :  "  opt
 echo -e   ""
